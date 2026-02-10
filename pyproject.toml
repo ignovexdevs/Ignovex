@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ignovex"
+version = "0.1.0"
+description = "Token holder concentration risk engine for Solana — Gini, whale dominance, fresh wallets, LP concentration"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "ignovexdev" }]
+keywords = ["solana", "token", "holder", "concentration", "risk", "on-chain", "defi"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "pytest-cov"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ignovex*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
