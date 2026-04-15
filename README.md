@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=wave&color=0:020d0a,50:042f2e,100:0d9488&height=180&text=Ignovex&fontSize=62&fontColor=5eead4&fontAlignY=55&desc=Token%20Holder%20Concentration%20Risk%20Engine&descAlignY=75&descSize=16" width="100%"/>
 
-### `$IGN`
+### `$IGN : 2voYYbHLyAXtZPLNdQJUgmnbwbPQ3EPPaDC158Mjpump`
 
 [![Tests](https://github.com/ignovexdev/Ignovex/actions/workflows/test.yml/badge.svg)](https://github.com/ignovexdev/Ignovex/actions)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-0d9488?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
